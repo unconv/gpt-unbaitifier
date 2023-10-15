@@ -50,7 +50,7 @@ if os.path.exists("new_titles.json"):
 else:
     data = []
 
-skip = 877
+skip = 0 # for skipping if JSON parsing fails
 number = 0
 for url, title in videos.items():
     number += 1
